@@ -176,9 +176,9 @@ var database = {
 		yValueFormatString: "#,##0.0#"%"",
 		dataPoints: [
 			{ label: "January", y: 100 },	
-			{ label: "Febraury", y: 200 },	
+			{ label: "Febraury", y: 50 },	
 			{ label: "March", y: 300 },
-			{ label: "April", y: 400 }
+			{ label: "April", y: 100 }
 			
 		]
 	}]

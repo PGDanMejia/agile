@@ -2,3 +2,100 @@
     font-weight: bold;
     font-size: 1.5em;
 }
+
+#navbar-title{
+    position: absolute;
+    left: 45%
+}
+
+#menu-button-container img {
+    width: 40px;
+}
+
+#menu-button-container{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#user-container{
+    position: relative;
+    right: 91%;
+    width: 113px;
+}
+
+#user-container img#user-image{
+    width: 40px;
+    position: relative;
+}
+
+#user-container p{
+    position: absolute;
+    color: white;
+    top: 9px;
+    left: 68px;
+    width: 100px;
+}
+
+/*---responsive-----*/
+@media (min-width:1100px) and (max-width:1300px){
+
+    #user-container{
+        position: relative;
+        right: 85%;
+        width: 202px;
+    }
+    
+    
+    #user-container p{
+        position: absolute;
+        color: white;
+        top: 9px;
+        left: 115px;
+        width: 100px;
+    }
+	
+}
+
+@media (min-width:700px) and (max-width:1100px){
+
+    #user-container{
+        position: relative;
+        right: 76%;
+        width: 202px;
+    }
+    
+    
+    #user-container p{
+        position: absolute;
+        color: white;
+        top: 9px;
+        left: 115px;
+        width: 100px;
+    }
+    
+    #navbar-title{
+        position: absolute;
+        left: 40%
+    }
+}
+
+@media (min-width:300px) and (max-width:700px){
+
+    #user-container{
+        position: relative;
+        right: 48%;
+        width: 202px;
+    }
+    
+    
+    #user-container p{
+        display: none;
+    }
+    
+    #navbar-title{
+        position: absolute;
+        left: 38%;
+        font-size: 17px;
+    }
+}
+
